@@ -1,4 +1,4 @@
-// Write a program to add all the values in a given number and check if the sum is prime number or not. Ex: 1234->10, not prime
+// 2. Take input from user a character variable in a program and if the value is alphabet then print "Alphabet" if it’s a number then print "Digit" and for other characters print "Special Character".
 
 import java.util.Scanner;
 

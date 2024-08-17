@@ -1,4 +1,4 @@
-// Write a program to add all the values in a given number and check if the sum is prime number or not. Ex: 1234->10, not prime
+// 1. Write a program to add all the values in a given number and check if the sum is prime number or not. Ex: 1234->10, not prime
 
 import java.util.Scanner;
 
