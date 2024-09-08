@@ -1,5 +1,4 @@
-// 2.  Write a java program to sort n elements in an array.
-// Using Bubble Sort
+// 2. Write a java program to sort n elements in an array Using Bubble Sort
 
 import java.util.ArrayList;
 import java.util.List;
