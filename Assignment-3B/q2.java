@@ -1,3 +1,5 @@
+// 2. Take 5 String type elements into an array list. Then (i) print the elements in the array list. (ii)add elements in the array list. (iii) Access elements in the array list (iv)Change elements in the list (v) Remove elements from the list.
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -17,8 +19,7 @@ class q2 {
         boolean run = true;
         int op;
 
-        outer:
-        while (run) {
+        outer:while (run) {
             System.out.println("\n1. Print\n2. Add\n3. Access\n4. Change\n5. Remove\n6. Exit");
             System.out.print("Option> ");
             op = sc.nextInt();

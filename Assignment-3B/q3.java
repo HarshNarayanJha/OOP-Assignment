@@ -1,3 +1,5 @@
+// 3. Take a 3-dimensional array and display its value.
+
 import java.util.Scanner;
 
 class q3 {
