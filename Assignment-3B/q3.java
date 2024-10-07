@@ -5,13 +5,13 @@ import java.util.Scanner;
 class q3 {
 
     public static void main(String args[]) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.print("Number of rows: ");
-        int rows = scanner.nextInt();
+        int rows = sc.nextInt();
         System.out.print("Number of columns: ");
-        int cols = scanner.nextInt();
+        int cols = sc.nextInt();
         System.out.print("Depth: ");
-        int depth = scanner.nextInt();
+        int depth = sc.nextInt();
 
         int[][][] array = new int[rows][cols][depth];
 
@@ -20,7 +20,7 @@ class q3 {
             for (int j = 0; j < cols; j++) {
                 for (int k = 0; k < depth; k++) {
                     System.out.print("Enter element at [" + i + "][" + j + "][" + k + "]: ");
-                    array[i][j][k] = scanner.nextInt();
+                    array[i][j][k] = sc.nextInt();
                 }
             }
         }
