@@ -21,3 +21,12 @@ class q6 {
         sc.close();
     }
 }
+/*sample output:
+Enter 5 elements:
+1
+2
+3
+4
+5
+Minimum of 5 elements: 1
+*/

@@ -37,3 +37,29 @@ class q1 {
         sc.close();
     }
 }
+/*
+Sample output:
+Enter Elements
+> 1
+> 2
+> 3
+> 4
+> 5
+> 6
+> 7
+> 8
+> 9
+> 10
+> 11
+> 12
+
+The Elements are:
+1 2 3 4
+5 6 7 8
+9 10 11 12
+
+Using enhanced for loop:
+1 2 3 4
+5 6 7 8
+9 10 11 12
+*/

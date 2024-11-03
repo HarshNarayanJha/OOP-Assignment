@@ -29,3 +29,15 @@ class q5 {
         sc.close();
     }
 }
+/*
+Sample Output:
+How many elements: 5
+Enter the elements:
+1
+2
+3
+4
+5
+Enter the element to search: 3
+Element found at index: 2
+*/

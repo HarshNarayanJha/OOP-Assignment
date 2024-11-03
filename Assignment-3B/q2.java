@@ -95,3 +95,30 @@ class q2 {
         ls.remove(s);
     }
 }
+
+/*
+Enter String Elements
+> one
+> two
+> three
+> four
+> five
+
+1. Print
+2. Add
+3. Access
+4. Change
+5. Remove
+6. Exit
+Option> 1
+
+one two three four five
+
+1. Print
+2. Add
+3. Access
+4. Change
+5. Remove
+6. Exit
+Option> 6
+*/

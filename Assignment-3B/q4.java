@@ -21,3 +21,9 @@ class q4 {
         System.out.println("Sorted ArrayList: " + ls);
     }
 }
+
+/*
+OUTPUT:
+Unsorted ArrayList: [5, 2, 8, 1, 9]
+Sorted ArrayList: [1, 2, 5, 8, 9]
+*/

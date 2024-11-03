@@ -40,3 +40,19 @@ class q7 {
         sc.close();
     }
 }
+/* Sample Output:
+Rows: 3
+Columns: 3
+Enter the elements of the matrix:
+1 2 3
+4 5 6
+7 8 9
+Original Matrix:
+1 2 3
+4 5 6
+7 8 9
+Transpose of the Matrix:
+1 4 7
+2 5 8
+3 6 9
+*/
