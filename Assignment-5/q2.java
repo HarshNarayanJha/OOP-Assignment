@@ -31,6 +31,16 @@ class Bird extends Animal {
         this.flyAltitude = flyAltitude;
     }
 
+    @Override
+    public void eat() {
+        System.out.println(name + " is eating in the sky");
+    }
+
+    @Override
+    public void sleep() {
+        System.out.println(name + " is sleeping on the tree");
+    }
+
     public void fly() {
         System.out.println(name + " is flying at " + flyAltitude);
     }
