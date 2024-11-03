@@ -25,5 +25,7 @@ class q5 {
         } else {
             System.out.println("Element not found in the array list.");
         }
+
+        sc.close();
     }
 }

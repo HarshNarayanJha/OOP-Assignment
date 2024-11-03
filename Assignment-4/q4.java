@@ -29,3 +29,9 @@ class q4 {
         System.out.println("Area of square: " + rect2.area());
     }
 }
+
+/*
+Sample output:
+Area of rectangle: 50.0
+Area of square: 16.0
+*/

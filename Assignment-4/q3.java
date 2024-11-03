@@ -51,3 +51,6 @@ class q3 {
         }
     }
 }
+
+// Sample Output:
+// Matching Rectangles

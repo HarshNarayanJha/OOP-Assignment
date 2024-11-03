@@ -29,5 +29,7 @@ class q1 {
         }
 
         System.out.println("Not found!");
+
+        sc.close();
     }
 }

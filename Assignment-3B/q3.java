@@ -35,5 +35,7 @@ class q3 {
             }
             System.out.println();
         }
+
+        sc.close();
     }
 }

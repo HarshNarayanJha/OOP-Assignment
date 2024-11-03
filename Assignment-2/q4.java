@@ -21,5 +21,7 @@ class q4 {
         } while (cur <= upto);
 
         System.out.println("Sum is " + sum);
+
+        sc.close();
     }
 }

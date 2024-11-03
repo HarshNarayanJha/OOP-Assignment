@@ -25,5 +25,6 @@ class q2 {
         } else {
             System.out.println(num + " is NOT Automorphic");
         }
+        sc.close();
     }
 }

@@ -17,5 +17,7 @@ class q6 {
 
         Collections.sort(ls);
         System.out.println("Minimum of 5 elements: " + ls.get(0));
+
+        sc.close();
     }
 }

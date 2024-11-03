@@ -19,7 +19,7 @@ class q2 {
         boolean run = true;
         int op;
 
-        outer:while (run) {
+        outer: while (run) {
             System.out.println("\n1. Print\n2. Add\n3. Access\n4. Change\n5. Remove\n6. Exit");
             System.out.print("Option> ");
             op = sc.nextInt();

@@ -41,3 +41,11 @@ class q2 {
         System.out.println("Volume: " + box.volume());
     }
 }
+
+/*
+Sample Output:
+Enter width: 5
+Enter height: 4
+Enter depth: 3
+Volume: 60.0
+*/

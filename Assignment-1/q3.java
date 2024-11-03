@@ -1,9 +1,10 @@
 // 3. Write a Java Program to find the reverse of a number (Take user input).
 
-import java.util.Scanner;
 import java.lang.Math;
+import java.util.Scanner;
 
 class q3 {
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number: ");
@@ -26,5 +27,7 @@ class q3 {
         }
 
         System.out.println(rev);
+
+        sc.close();
     }
 }

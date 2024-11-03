@@ -37,3 +37,15 @@ class q5 {
         System.out.println(hex.toString());
     }
 }
+
+/*
+Sample output:
+Enter a number: 15
+F
+
+Enter a number: 255
+FF
+
+Enter a number: 1234
+4D2
+*/

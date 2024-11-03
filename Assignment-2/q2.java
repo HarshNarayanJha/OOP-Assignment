@@ -18,5 +18,7 @@ class q1 {
         } else {
             System.out.println("Special Character");
         }
+
+        sc.close();
     }
 }

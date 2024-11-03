@@ -19,5 +19,7 @@ class q4 {
         }
 
         System.out.println("Palindrome");
+
+        sc.close();
     }
 }

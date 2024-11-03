@@ -29,5 +29,7 @@ class q1 {
         } else {
             System.out.println("Sum is not Prime!");
         }
+
+        sc.close();
     }
 }
