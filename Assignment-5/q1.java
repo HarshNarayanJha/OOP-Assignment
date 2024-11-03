@@ -11,9 +11,9 @@
 
 class Person {
 
-    private String name;
-    private int age;
-    private String gender;
+    String name;
+    int age;
+    String gender;
 
     public Person(String name, int age, String gender) {
         this.name = name;
@@ -24,13 +24,13 @@ class Person {
 
 class Patient extends Person {
 
-    private String patientID;
-    private String department;
-    private String ward;
-    private String dateOfJoining;
-    private String address;
-    private double medicalFees;
-    private boolean isIndoor;
+    String patientID;
+    String department;
+    String ward;
+    String dateOfJoining;
+    String address;
+    double medicalFees;
+    boolean isIndoor;
 
     public Patient(
         String name,
@@ -65,34 +65,6 @@ class Patient extends Person {
         }
         return medicalFees;
     }
-
-    public String getPatientID() {
-        return patientID;
-    }
-
-    public String getDepartment() {
-        return department;
-    }
-
-    public String getWard() {
-        return ward;
-    }
-
-    public String getDateOfJoining() {
-        return dateOfJoining;
-    }
-
-    public String getAddress() {
-        return address;
-    }
-
-    public double getMedicalFees() {
-        return medicalFees;
-    }
-
-    public boolean isIndoor() {
-        return isIndoor;
-    }
 }
 
 public class q1 {
@@ -126,17 +98,17 @@ public class q1 {
 
         // Calculate and display fees for indoor patient
         System.out.println("Indoor Patient Details:");
-        System.out.println("Patient ID: " + indoorPatient.getPatientID());
-        System.out.println("Department: " + indoorPatient.getDepartment());
-        System.out.println("Medical Fees: $" + indoorPatient.calculateMedicalFees());
+        System.out.println("Patient ID: " + indoorPatient.patientID);
+        System.out.println("Department: " + indoorPatient.department);
+        System.out.println("Medical Fees: ₹" + indoorPatient.calculateMedicalFees());
 
         System.out.println();
 
         // Calculate and display fees for outdoor patient
         System.out.println("Outdoor Patient Details:");
-        System.out.println("Patient ID: " + outdoorPatient.getPatientID());
-        System.out.println("Department: " + outdoorPatient.getDepartment());
-        System.out.println("Medical Fees: $" + outdoorPatient.calculateMedicalFees());
+        System.out.println("Patient ID: " + outdoorPatient.patientID);
+        System.out.println("Department: " + outdoorPatient.department);
+        System.out.println("Medical Fees: ₹" + outdoorPatient.calculateMedicalFees());
     }
 }
 /* Output
