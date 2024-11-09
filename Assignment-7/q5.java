@@ -37,3 +37,8 @@ public class q5 {
         task3.start();
     }
 }
+/* SAMPLE OUTPUT:
+    Counting: 6
+    Hello from Thread 2!
+    Woke up!
+*/

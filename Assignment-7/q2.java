@@ -16,3 +16,6 @@ public class q2 {
         }
     }
 }
+// Example Output:
+// Inner catch block: Array index out of bounds
+// Outer catch block: Arithmetic exception

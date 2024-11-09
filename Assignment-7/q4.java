@@ -40,3 +40,7 @@ class q4 {
         System.out.println(square.area());
     }
 }
+/* Sample Output
+200
+25
+*/

@@ -70,6 +70,11 @@ class q3 {
 
         System.out.println("Reversed str1: " + str1.reverse());
 
-        System.out.println("Uppercase: " + str1.changeCase(SuperString.StringCase.UPPERCASE).internalString);
+        System.out.println("Uppercase: " + str1.changeCase(SuperString.StringCase.TOGGLECASE));
     }
 }
+/*
+str1 equals str2: false
+Reversed str1: dlroW olleH
+Uppercase: hELLO wORLD
+*/
