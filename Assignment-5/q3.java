@@ -60,3 +60,22 @@ public class q3 {
         CollegeStudent cs = new CollegeStudent("Bar", 17, "56789", 9.7, 2, "CS");
     }
 }
+
+/*
+Teacher: Alex
+Age: 45
+Salary: 12.25
+Subject: COmputer Science
+
+Student: Foo
+Age: 12
+ID: 12345
+GPA: 6.7
+
+College Student: Bar
+Age: 17
+ID: 56789
+GPA: 9.7
+Year: 2
+Major:CS
+*/
